@@ -1,36 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📈 NextFlip
+리셀 상품을 여러 사이트에서 크롤링하여 수익성이 높은 상품을 찾아주는 서비스입니다. 사용자는 KREAM 계정으로 로그인하여 타겟 상품과 정렬 기준을 설정하고, 원하는 정보만 필터링하여 볼 수 있습니다.
 
-## Getting Started
+## 📌 주요 기능
+1. KREAM 계정 로그인
+2. 크롤링할 타겟 아이템 선정 (인기순, 판매순, 최신순 등)
+3. 크롤링된 상품 정렬 기준 선택 (마진율 높은 순, 마진율 낮은 순, 상품 개수 많은 순 등)
+4. 상품 정보 필터링 (제품명, 판매량, 체결 경과일, 판매 사이트 링크, 마진율 등 선택한 데이터만 표시)
 
-First, run the development server:
+## 🛠 기술 스택
+Frontend: Next.js, TypeScript, Tailwind CSS, Styled Components, Zustand
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📅 개발 기간
+25.02.01 - 진행 중
